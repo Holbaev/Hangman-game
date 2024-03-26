@@ -105,7 +105,7 @@ const App = () => {
     <ModalWindow visible={isLoser}>
       <div className={styles.modal}>
         <img src={loser} alt="" className={styles.modal_img} />
-        <p className={styles.modal_title}>fame over</p>
+        <p className={styles.modal_title}>Game over</p>
         <p className={styles.modal_text}>The correct word was: <span className={styles.fount_word}>{wordToGuess?.word}</span></p>
         <button className={styles.btn} onClick={handlePlayAgain}>Play again</button>
       </div>
